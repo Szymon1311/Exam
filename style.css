@@ -1,0 +1,83 @@
+body
+{
+    background-image: url(img/background1.png);
+    font-family: 'Lato', sans-serif;
+    color: #000000;
+    font-size: 24px;
+}
+
+#container
+{
+    margin: 0 auto;
+    width: 1000px;
+}
+
+#title
+{
+    margin: 20px 20px 5px 20px;
+    padding: 10px;
+}
+
+#title h1
+{
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Cinzel', serif;
+    text-shadow: 9px -5px 5px rgba(150, 150, 150, 0.8);
+    font-weight: 400;
+}
+
+#title h1::selection
+{
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Cinzel', serif;
+    text-shadow: 9px -5px 5px rgba(150, 150, 150, 0.8);
+    background-color: none;
+}
+
+#title h1:hover
+{
+    cursor: default;
+}
+
+.login
+{
+    position: absolute;
+    top: 25px;
+    right: 60px;
+}
+
+.loginbutton
+{
+    border-radius: 10px;
+    border: none;
+    -webkit-box-shadow: 3px 3px 10px 5px rgba(214,214,214,1);
+    -moz-box-shadow: 3px 3px 10px 5px rgba(214,214,214,1);
+    box-shadow: 3px 3px 10px 5px rgba(214,214,214,1);
+    margin-right: 10px;
+    height: 40px;
+    width: 120px;
+    outline: none;
+    background-color: #ffffff;
+    transition: all 0.5s ease-in-out;  
+}
+
+.loginbutton:hover
+{
+    transform: scale(1.2);
+    background-color: rgb(240, 238, 235);
+    box-shadow: none;
+}
+
+.loginbutton a
+{
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000000;
+}
+
+
+
+
