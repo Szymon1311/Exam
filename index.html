@@ -15,11 +15,36 @@
         <header>
             <div id="title"><h1>Water Treatment Technology</h1></div>
 
-            <div class="login">
-                <button class="loginbutton" type="button"><a href="#">Login</a></button>
-                <button class="loginbutton" type="button"><a href="#">Register</a></button>
+            <script>
+                var show = function() {
+                var loginscreen = document.getElementById('screen');
+                if (loginscreen.style.display === 'block' || loginscreen.style.display === '')
+                loginscreen.style.display = 'none';
+                else
+                loginscreen.style.display = 'block'
+                }
+            </script> 
+
+            <button onclick="show()">Login</button>
+
+            <form action="order.php" method="post" enctype="multipart/form-data">
+            <div id="screen">
+    
+                <div class="column">
+                    <input type="text" name="username" placeholder="Username" required>
+                </div>
+    
+                <div class="column">
+                    <input type="password" name="password" placeholder="Password" required>
+                </div>
+    
+                <div class="column">
+                    <input type="submit" value="Login">
+                </div>
+    
             </div>
-            
+            </form>
+                 
         </header>
 
         <main>
