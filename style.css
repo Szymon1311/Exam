@@ -136,7 +136,7 @@ label
 .article
 {
     width: 690px;
-    min-height: 400px;
+    min-height: 380px;
     float: left;
     background-color: fade(#FFFFFF, 50%);
     margin: 5px 0 5px 0;
@@ -157,9 +157,11 @@ label
 .article p
 {
     text-align: justify;
-    padding: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
     font-size: 18px;
     line-height: 1.5;
+    margin: 50px 0;
     
 }
 
