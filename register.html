@@ -13,49 +13,46 @@
 <body>
     <div id="container">
         <header>
-            <div id="title"><h1>Water Treatment Technology</h1></div>
-
-            <script>
-                var show = function() {
-                var loginscreen = document.getElementById('screen');
-                if (loginscreen.style.display == 'block')
-                    loginscreen.style.display = 'none';
-                else
-                    loginscreen.style.display = 'block';
-                }
-            </script> 
-
-            <div class="login">
-
-                <button onclick="show()">My account</button>
-
-                <form action="order.php" method="post" enctype="multipart/form-data">
-                    <div id="screen">
-            
-                            <input type="text" name="username" placeholder="Username" required>
-                        
-                            <input type="password" name="password" placeholder="Password" required>
-                    
-                            <input type="submit" value="Sign in">
-                
-                        <div class="register">
-                            Don't have an account? <a href="register.html">Sign up</a>
-                        </div>
-
-                    </div>
-                </form>
-             </div>                
+            <div id="title"><h1>Water Treatment Technology</h1></div>    
         </header>
 
         <main>
             <div class="article">
-                <h2>Who we are?</h2>
 
-                <p>Hey,<br/><br>
+                <h2>Create a new account</h2>
 
-                    This is a website dedicated to water treatment technology. After logging in, you'll get access to a <b><em>unique online course</em></b> devoted entirely to modern water treatment technology. Our users also have <b><em>access to the latest research and news published by the best scientists</em></b> and technologists from around the world. Also gain the opportunity to obtain the <b><em>globally recognized XYZ certificate</em></b> by passing the exam. Our users also exchange opinions and solve problems in the field of technology through <b><em>forum discussions.</em></b><br/><br>
-                    
-                    Do not hesitate, just create an account and gain access to all the above-mentioned functions of our site.</p>
+                <form action="index.html" method="post" enctype="multipart/form-data">
+
+                        <div class="column">
+                            <label>Username:</label></br>
+                            <input type="text" name="username" placeholder="Username" required>
+                        </div>
+            
+                        <div class="column">
+                            <label>Password:</label></br>
+                            <input type="password" name="password" placeholder="Password" required>
+                        </div>
+
+                        <div class="column">
+                            <label>First name:</label></br>
+                            <input type="text" name="fname" placeholder="First name" required>
+                        </div>
+
+                        <div class="column">
+                            <label>Last name:</label></br>
+                            <input type="text" name="lname" placeholder="Last name" required>
+                        </div>
+
+                        <div class="column">
+                            <label>Date of birth:</label></br>
+                            <input type="date" name="dateofbirth" required>
+                        </div>
+            
+                        <div class="column">
+                            <input type="submit" value="Sign in">
+                        </div>
+
+                </form>
             </div>
 
             <div class="photo">
