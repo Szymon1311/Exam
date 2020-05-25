@@ -41,6 +41,89 @@ body
     cursor: default;
 }
 
+.login
+{
+    width: 220px;
+    height: 150px;
+    position: absolute;
+    top: 35px;
+    right: 45px;
+    text-align: center;
+}
+
+button
+{
+    width: 150px;
+    font-family: 'Cinzel', serif;
+    font-size: 18px;
+    border-radius: 30px;
+    border: 1px solid #000000;
+    background-color: #FFFFFF;
+    padding: 5px;
+    outline: none;
+    -webkit-box-shadow: 3px 3px 10px 5px rgba(214,214,214,1);
+    -moz-box-shadow: 3px 3px 10px 5px rgba(214,214,214,1);
+    box-shadow: 3px 3px 10px 5px rgba(214,214,214,1);
+    margin-bottom: 10px;
+    transition: transform 0.5s ease-in-out;
+}
+
+button:hover
+{
+    transform: scale(0.8);
+}
+
+#screen
+{
+    display: none;
+    width: 220px;
+    min-height: 120px;
+    background-color: fade(#FFFFFF, 50%);
+    border-radius: 30px;
+    -webkit-box-shadow: 3px 3px 10px 5px rgba(214,214,214,1);
+    -moz-box-shadow: 3px 3px 10px 5px rgba(214,214,214,1);
+    box-shadow: 3px 3px 10px 5px rgba(214,214,214,1);
+    padding: 5px;
+    
+}
+
+input[type=text],
+input[type=password]
+{
+    border-radius: 30px;
+    border: none;
+    height: 25px;
+    padding-left: 5px;
+    outline: none;
+    border: 1px solid #000000;
+    background-color:#FFFFFF;
+}
+
+input[type=submit]
+{
+    border-radius: 30px;
+    border: none;
+    height: 25px;
+    padding-left: 5px;
+    outline: none;
+    border: 1px solid #000000;
+    background-color:#FFFFFF;
+    font-weight: 700;
+}
+
+.register
+{
+    font-size: 14px;
+    margin: 5px 0 5px 0;
+}
+
+.newaccount
+{
+    background-color: red;
+    height: 20px;
+    display: none;
+}
+
 .article
 {
     width: 690px;

@@ -18,33 +18,39 @@
             <script>
                 var show = function() {
                 var loginscreen = document.getElementById('screen');
-                if (loginscreen.style.display === 'block' || loginscreen.style.display === '')
-                loginscreen.style.display = 'none';
+                if (loginscreen.style.display == 'block')
+                    loginscreen.style.display = 'none';
                 else
-                loginscreen.style.display = 'block'
+                    loginscreen.style.display = 'block';
                 }
             </script> 
 
-            <button onclick="show()">Login</button>
+            <div class="login">
 
-            <form action="order.php" method="post" enctype="multipart/form-data">
-            <div id="screen">
-    
-                <div class="column">
-                    <input type="text" name="username" placeholder="Username" required>
-                </div>
-    
-                <div class="column">
-                    <input type="password" name="password" placeholder="Password" required>
-                </div>
-    
-                <div class="column">
-                    <input type="submit" value="Login">
-                </div>
-    
-            </div>
-            </form>
-                 
+                <button onclick="show()">My account</button>
+
+                <form action="order.php" method="post" enctype="multipart/form-data">
+                    <div id="screen">
+            
+                        <div class="column">
+                            <input type="text" name="username" placeholder="Username" required>
+                        </div>
+            
+                        <div class="column">
+                            <input type="password" name="password" placeholder="Password" required>
+                        </div>
+            
+                        <div class="column">
+                            <input type="submit" value="Sign in">
+                        </div>
+
+                        <div class="register">
+                            Don't have an account? <a href="#">Sign up</a>
+                        </div>
+
+                    </div>
+                </form>
+             </div>                
         </header>
 
         <main>
