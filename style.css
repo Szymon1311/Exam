@@ -83,9 +83,39 @@ button:hover
     -webkit-box-shadow: 3px 3px 10px 5px rgba(214,214,214,1);
     -moz-box-shadow: 3px 3px 10px 5px rgba(214,214,214,1);
     box-shadow: 3px 3px 10px 5px rgba(214,214,214,1);
-    padding: 5px;
-    
+    padding: 5px;  
 }
+
+#logoutscreen
+{
+    display: none;
+    width: 220px;
+    height: 60px;
+}
+
+.logout
+{
+    width: 220px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    -webkit-box-shadow: 3px 3px 10px 5px rgba(214,214,214,1);
+    -moz-box-shadow: 3px 3px 10px 5px rgba(214,214,214,1);
+    box-shadow: 3px 3px 10px 5px rgba(214,214,214,1);
+    background-color: fade(#FFFFFF, 50%);
+    border-radius: 30px;
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+    font-size: 20px;     
+}
+
+.logout a
+{
+    text-decoration: none;
+    color: #000000;
+}
+
 
 input[type=text],
 input[type=password],
@@ -315,24 +345,34 @@ label
     width: 200px;
     height: 200px;
     float: left;
-    background-color: fade(#FFFFFF, 50%);
+    background-color: #ffffff;
     -webkit-box-shadow: 3px 3px 10px 5px rgba(214,214,214,1);
     -moz-box-shadow: 3px 3px 10px 5px rgba(214,214,214,1);
     box-shadow: 3px 3px 10px 5px rgba(214,214,214,1);
     margin: 10px;
+    border: 1px solid #000000;
     border-radius: 30px;
     align-items: center;
     justify-content: center;
     display: flex;
     text-decoration: none;
     color: #000000;
-    font-size: 32px;
+    font-size: 28px;
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+    transition: all 0.5s ease-in-out;
+    text-shadow: none;
 }
 
-.tileconteiner
+.tilelink1:hover
 {
-    width: 440px;
-    height: 440px;
+    transform: scale(0.8);
+}
+
+.tilecontainer
+{
+    width: 444px;
+    height: 444px;
     margin: 35px 125px;
 }
 

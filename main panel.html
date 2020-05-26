@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Water Treatment Technology Exam</title>
+    <title>Water Treatment Technology</title>
 
     <link rel="stylesheet" href="style.css" type="text/css" />
     <link rel="stylesheet" href="fontello/css/fontello.css" type="text/css">
@@ -13,18 +13,40 @@
 <body>
     <div id="container">
         <header>
-            <div id="title"><h1>Water Treatment Technology</h1></div>    
+            <div id="title"><h1>Water Treatment Technology</h1></div>
+            
+            <script>
+                var show = function() {
+                var loginscreen = document.getElementById('logoutscreen');
+                if (loginscreen.style.display == 'block')
+                    loginscreen.style.display = 'none';
+                else
+                    loginscreen.style.display = 'block';
+                }
+            </script> 
+
+            <div class="login">
+
+                <button onclick="show()">My account</button>
+
+                <form action="main panel.html" method="post" enctype="multipart/form-data">
+                    <div id="logoutscreen">
+            
+                        <div class="logout"><a href="index.html">Log out</a></div>
+
+                    </div>
+                </form>
         </header>
 
         <main>
             <div class="article">
-                <div class="tileconteiner">
+                <div class="tilecontainer">
 
-                    <a href="#" target="_blank" class="tilelink1">asd</a>
-                    <a href="#" target="_blank" class="tilelink1">asd</a>
+                    <a href="#" target="_blank" class="tilelink1">Lectures</a>
+                    <a href="#" target="_blank" class="tilelink1">Newest articles</a>
                     <div style="clear: both;"></div>
-                    <a href="#" target="_blank" class="tilelink1">asd</a>
-                    <a href="#" target="_blank" class="tilelink1">asd</a>
+                    <a href="#" target="_blank" class="tilelink1">Exam</a>
+                    <a href="#" target="_blank" class="tilelink1">Forum</a>
 
                 </div>
             </div>
