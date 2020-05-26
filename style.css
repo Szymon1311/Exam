@@ -310,6 +310,32 @@ label
     text-align: center;
 }
 
+.tilelink1
+{
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-color: fade(#FFFFFF, 50%);
+    -webkit-box-shadow: 3px 3px 10px 5px rgba(214,214,214,1);
+    -moz-box-shadow: 3px 3px 10px 5px rgba(214,214,214,1);
+    box-shadow: 3px 3px 10px 5px rgba(214,214,214,1);
+    margin: 10px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    color: #000000;
+    font-size: 32px;
+}
+
+.tileconteiner
+{
+    width: 440px;
+    height: 440px;
+    margin: 35px 125px;
+}
+
 
 
 
