@@ -1,0 +1,16 @@
+{
+  "name": "scroll",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "7960517a504e42aea0641f15bc55fbed",
+      "css": "collapse",
+      "code": 61777,
+      "src": "fontawesome"
+    }
+  ]
+}

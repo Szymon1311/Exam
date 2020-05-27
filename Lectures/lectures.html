@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lectures</title>
+
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <link rel="stylesheet" href="fontello/css/scroll.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Open+Sans+Condensed:wght@300;700&display=swap" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="js/jquery.scrollTo.min.js"></script>
+
+    <script>
+		
+		jQuery(function($)
+		{
+			//zresetuj scrolla
+			$.scrollTo(0);
+			
+			$('#link1').click(function() { $.scrollTo($('#lecture1'), 700); });
+			$('#link2').click(function() { $.scrollTo($('#lecture2'), 700); });
+			$('#link3').click(function() { $.scrollTo($('#lecture3'), 700); });
+			$('#link4').click(function() { $.scrollTo($('#lecture4'), 700); });
+			$('#link5').click(function() { $.scrollTo($('#lecture5'), 700); });
+	
+			$('.scrollup').click(function() { $.scrollTo($('body'), 1000); });
+		}
+		);
+		
+		//pokaż podczas przewijania
+		$(window).scroll(function()
+		{
+			if($(this).scrollTop()>300) $('.scrollup').fadeIn();
+			else $('.scrollup').fadeOut();		
+		}
+		);
+    </script>
+
+</head>
+<body>
+    <div class="container">
+
+        <a href="#" class="scrollup"><i class="icon-collapse"></i></a>
+
+        <header>
+           <div class="logo"><h1>Lectures</h1></div>
+        </header>
+
+        <main>
+
+            <div class="list">
+                <ul>
+                    <li><a id="link1" href="#">Lecture I</a></li>
+                    <li><a id="link2" href="#">Lecture II</a></li>
+                    <li><a id="link3" href="#">Lecture III</a></li>
+                    <li><a id="link4" href="#">Lecture IV</a></li>
+                    <li><a id="link5" href="#">Lecture V</a></li>
+                </ul>
+            </div>
+            <article>
+                <div id="lecture1">
+                    <div class="lecture">
+
+                        <div class="title"><h2>Lecture I</h2></div>
+
+                            <div class="description">
+                                <p>The lecture concerns the size of global and local drinking water resources, legal acts regulating the quality of drinking water, sources of drinking water, and will also present the distribution of raw waters by the way they are included. In the next part, the admixtures and impurities of natural waters as well as secondary micro-pollution of tap water will be discussed. The lecture will end with a discussion of the most important in terms of technology properties of water subjected to the treatment process (including alkalinity, acidity, hardness and corrosivity).</p>
+                            </div>
+
+                                <div class="buttons">
+
+                                    <div class="open"><button>Open</button></div>
+                                    <div class="download"><button>Download</button></div>
+
+                                </div> 
+                    </div>
+                </div>
+
+                <div id="lecture2">
+                    <div class="lecture">
+
+                        <div class="title"><h2>Lecture II</h2></div>
+
+                            <div class="description">
+                                <p>The lecture concerns the size of global and local drinking water resources, legal acts regulating the quality of drinking water, sources of drinking water, and will also present the distribution of raw waters by the way they are included. In the next part, the admixtures and impurities of natural waters as well as secondary micro-pollution of tap water will be discussed. The lecture will end with a discussion of the most important in terms of technology properties of water subjected to the treatment process (including alkalinity, acidity, hardness and corrosivity).</p>
+                            </div>
+
+                                <div class="buttons">
+
+                                    <div class="open"><button>Open</button></div>
+                                    <div class="download"><button>Download</button></div>
+                                    
+                                </div> 
+                    </div>
+                </div>
+
+                <div id="lecture3">
+                    <div class="lecture">
+
+                        <div class="title"><h2>Lecture III</h2></div>
+
+                            <div class="description">
+                                <p>The lecture concerns the size of global and local drinking water resources, legal acts regulating the quality of drinking water, sources of drinking water, and will also present the distribution of raw waters by the way they are included. In the next part, the admixtures and impurities of natural waters as well as secondary micro-pollution of tap water will be discussed. The lecture will end with a discussion of the most important in terms of technology properties of water subjected to the treatment process (including alkalinity, acidity, hardness and corrosivity).</p>
+                            </div>
+
+                                <div class="buttons">
+
+                                    <div class="open"><button>Open</button></div>
+                                    <div class="download"><button>Download</button></div>
+                                    
+                                </div> 
+                    </div>
+                </div>
+
+                <div id="lecture4">
+                    <div class="lecture">
+
+                        <div class="title"><h2>Lecture IV</h2></div>
+
+                            <div class="description">
+                                <p>The lecture concerns the size of global and local drinking water resources, legal acts regulating the quality of drinking water, sources of drinking water, and will also present the distribution of raw waters by the way they are included. In the next part, the admixtures and impurities of natural waters as well as secondary micro-pollution of tap water will be discussed. The lecture will end with a discussion of the most important in terms of technology properties of water subjected to the treatment process (including alkalinity, acidity, hardness and corrosivity).</p>
+                            </div>
+
+                                <div class="buttons">
+
+                                    <div class="open"><button>Open</button></div>
+                                    <div class="download"><button>Download</button></div>
+                                    
+                                </div> 
+                    </div>
+                </div>
+
+                <div id="lecture5">
+                    <div class="lecture">
+
+                        <div class="title"><h2>Lecture V</h2></div>
+
+                            <div class="description">
+                                <p>The lecture concerns the size of global and local drinking water resources, legal acts regulating the quality of drinking water, sources of drinking water, and will also present the distribution of raw waters by the way they are included. In the next part, the admixtures and impurities of natural waters as well as secondary micro-pollution of tap water will be discussed. The lecture will end with a discussion of the most important in terms of technology properties of water subjected to the treatment process (including alkalinity, acidity, hardness and corrosivity).</p>
+                            </div>
+
+                                <div class="buttons">
+
+                                    <div class="open"><button>Open</button></div>
+                                    <div class="download"><button>Download</button></div>
+                                    
+                                </div> 
+                    </div>
+                </div>
+
+            </article>
+        </main>
+    </div>
+
+    
+</body>
+</html>
