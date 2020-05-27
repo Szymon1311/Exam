@@ -186,6 +186,12 @@ article
     border-radius: 10px; 
 }
 
+.open a
+{
+    text-decoration: none;
+    color: #000000;
+}
+
 .download
 {
     width: 300px;
